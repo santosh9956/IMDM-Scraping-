@@ -61,9 +61,7 @@ def scrap_by_list():
     return movie_list
 scraped=scrap_by_list()
 
-import json 
-file=open("year.json","w")
-json.dump(scraped,file,indent="")
+
 
 
 
